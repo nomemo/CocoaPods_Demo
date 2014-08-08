@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyTimeTool.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSLog(@"rfc3339DateFormatterGenerate string is %@", [MyTimeTool rfc3339DateFormatterGenerate:[NSDate date] isExtend:YES]);
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
