@@ -1,10 +1,26 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, "6.0"
+workspace 'MyProject'
+xcodeproj 'MyProject.xcodeproj'
+xcodeproj '../MyMacProject/MyMacProject.xcodeproj'
 
-target "MyProject" do
+
+target 'MyProject' do
+    platform :ios, '7.0'
 	pod "AFNetworking" 
     pod "MyLocalLib", :path => "../MyLocalLib"
+	xcodeproj 'MyProject.xcodeproj'
+
 end
+
+
+target 'MyMacProject' do
+    platform :osx, '10.9'
+	pod "AFNetworking" 
+    pod "MyLocalLib", :path => "../MyLocalLib"
+	xcodeproj 'MyMacProject.xcodeproj'
+end
+
+
+
 
 
 target "MyProjectTests" do
