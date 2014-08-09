@@ -3,6 +3,7 @@
 
 target "MyProject" do
 pod "AFNetworking" 
+pod "MyPrivateLibs", :git => 'https://github.com/Wing-Of-War/MyPrivateLibs'
 end
 
 

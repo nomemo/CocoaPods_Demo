@@ -20,11 +20,18 @@ PODS:
   - AFNetworking/UIKit (2.3.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - MyPrivateLibs (0.1.0)
 
 DEPENDENCIES:
   - AFNetworking
+  - MyPrivateLibs (from `https://github.com/Wing-Of-War/MyPrivateLibs`)
+
+EXTERNAL SOURCES:
+  MyPrivateLibs:
+    :git: https://github.com/Wing-Of-War/MyPrivateLibs
 
 SPEC CHECKSUMS:
   AFNetworking: 6d7b76aa5d04c8c37daad3eef4b7e3f2a7620da3
+  MyPrivateLibs: 8e5c8e5edf6914e75d6ab088cc8341793bf09b77
 
 COCOAPODS: 0.33.1
