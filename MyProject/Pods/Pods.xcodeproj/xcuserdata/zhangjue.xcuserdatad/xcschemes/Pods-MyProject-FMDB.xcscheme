@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "92C1B0A40B734D7EAE756976"
+               BlueprintIdentifier = "A5F6627003014E6EA5D00A3C"
                BuildableName = "libPods-MyProject-FMDB.a"
                BlueprintName = "Pods-MyProject-FMDB"
                ReferencedContainer = "container:Pods.xcodeproj">

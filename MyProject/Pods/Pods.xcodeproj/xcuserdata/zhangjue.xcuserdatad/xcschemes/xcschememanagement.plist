@@ -4,57 +4,48 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-MyMacProject-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyMacProject-FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyMacProject-MyLocalLib.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyMacProject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MyProject-AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-MyProject-FMDB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>Pods-MyProject-MyLocalLib.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>Pods-MyProject.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>3FBC4F2D7EB04F738C1A879A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7D6F838294944D10AD5CBF8E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>92C1B0A40B734D7EAE756976</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B4A8755ABACB42DDB2F25FDD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
