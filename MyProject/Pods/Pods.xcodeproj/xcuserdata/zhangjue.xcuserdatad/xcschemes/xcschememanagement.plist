@@ -9,7 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MyProject-MyPrivateLibs.xcscheme</key>
+		<key>Pods-MyProject-FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyProject-MyLocalLib.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>42E36500CB774003A390C331</key>
+		<key>3FBC4F2D7EB04F738C1A879A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>85DECA50726345A1B4023AF0</key>
+		<key>7D6F838294944D10AD5CBF8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F7B7E60239A64980BB0407FC</key>
+		<key>92C1B0A40B734D7EAE756976</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4A8755ABACB42DDB2F25FDD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

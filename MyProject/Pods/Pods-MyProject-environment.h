@@ -48,9 +48,39 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 3
 #define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 1
 
-// MyPrivateLibs
-#define COCOAPODS_POD_AVAILABLE_MyPrivateLibs
-#define COCOAPODS_VERSION_MAJOR_MyPrivateLibs 0
-#define COCOAPODS_VERSION_MINOR_MyPrivateLibs 1
-#define COCOAPODS_VERSION_PATCH_MyPrivateLibs 0
+// FMDB
+#define COCOAPODS_POD_AVAILABLE_FMDB
+#define COCOAPODS_VERSION_MAJOR_FMDB 2
+#define COCOAPODS_VERSION_MINOR_FMDB 3
+#define COCOAPODS_VERSION_PATCH_FMDB 0
+
+// FMDB/common
+#define COCOAPODS_POD_AVAILABLE_FMDB_common
+#define COCOAPODS_VERSION_MAJOR_FMDB_common 2
+#define COCOAPODS_VERSION_MINOR_FMDB_common 3
+#define COCOAPODS_VERSION_PATCH_FMDB_common 0
+
+// FMDB/standard
+#define COCOAPODS_POD_AVAILABLE_FMDB_standard
+#define COCOAPODS_VERSION_MAJOR_FMDB_standard 2
+#define COCOAPODS_VERSION_MINOR_FMDB_standard 3
+#define COCOAPODS_VERSION_PATCH_FMDB_standard 0
+
+// MyLocalLib
+#define COCOAPODS_POD_AVAILABLE_MyLocalLib
+#define COCOAPODS_VERSION_MAJOR_MyLocalLib 0
+#define COCOAPODS_VERSION_MINOR_MyLocalLib 1
+#define COCOAPODS_VERSION_PATCH_MyLocalLib 0
+
+// MyLocalLib/DataCenter
+#define COCOAPODS_POD_AVAILABLE_MyLocalLib_DataCenter
+#define COCOAPODS_VERSION_MAJOR_MyLocalLib_DataCenter 0
+#define COCOAPODS_VERSION_MINOR_MyLocalLib_DataCenter 1
+#define COCOAPODS_VERSION_PATCH_MyLocalLib_DataCenter 0
+
+// MyLocalLib/MyCategory
+#define COCOAPODS_POD_AVAILABLE_MyLocalLib_MyCategory
+#define COCOAPODS_VERSION_MAJOR_MyLocalLib_MyCategory 0
+#define COCOAPODS_VERSION_MINOR_MyLocalLib_MyCategory 1
+#define COCOAPODS_VERSION_PATCH_MyLocalLib_MyCategory 0
 

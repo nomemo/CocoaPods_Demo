@@ -2,8 +2,8 @@
 # platform :ios, "6.0"
 
 target "MyProject" do
-pod "AFNetworking" 
-pod "MyPrivateLibs", :git => 'https://github.com/Wing-Of-War/MyPrivateLibs'
+	pod "AFNetworking" 
+    pod "MyLocalLib", :path => "../MyLocalLib"
 end
 
 

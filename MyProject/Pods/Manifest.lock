@@ -20,18 +20,29 @@ PODS:
   - AFNetworking/UIKit (2.3.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - MyPrivateLibs (0.1.0)
+  - FMDB (2.3):
+    - FMDB/standard
+  - FMDB/common (2.3)
+  - FMDB/standard (2.3):
+    - FMDB/common
+  - MyLocalLib (0.1.0):
+    - MyLocalLib/DataCenter
+    - MyLocalLib/MyCategory
+  - MyLocalLib/DataCenter (0.1.0)
+  - MyLocalLib/MyCategory (0.1.0):
+    - FMDB
 
 DEPENDENCIES:
   - AFNetworking
-  - MyPrivateLibs (from `https://github.com/Wing-Of-War/MyPrivateLibs`)
+  - MyLocalLib (from `../MyLocalLib`)
 
 EXTERNAL SOURCES:
-  MyPrivateLibs:
-    :git: https://github.com/Wing-Of-War/MyPrivateLibs
+  MyLocalLib:
+    :path: ../MyLocalLib
 
 SPEC CHECKSUMS:
   AFNetworking: 6d7b76aa5d04c8c37daad3eef4b7e3f2a7620da3
-  MyPrivateLibs: 8e5c8e5edf6914e75d6ab088cc8341793bf09b77
+  FMDB: 31ec26773c7f7b7890a6038235a1f2bbd933a7cb
+  MyLocalLib: 8184d467403c30686b58efd9417ca4a18a6f7ef4
 
 COCOAPODS: 0.33.1

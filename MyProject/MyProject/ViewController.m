@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "MyTimeTool.h"
-#import <MyPrivateLibs/NSObject+AssociatedObjects.h>
 
 @interface ViewController ()
 @property (nonatomic, strong) NSArray *emptyArray;
